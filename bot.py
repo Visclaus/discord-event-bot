@@ -15,7 +15,7 @@ class BotContext:
     def get_voice_channel(self):
         return self._voice_channel
 
-TOKEN = "MTExNzM2NDUyODQ0MzgxODA0Ng.G1klcM.-7jySP0caefxjkJF4tPTKB7cF3duoREJz5OALw"
+TOKEN = ""
 DISCORD_GUILD = "European Server"
 client = discord.Client(intents=discord.Intents.default())
 bot_context = BotContext(None)
